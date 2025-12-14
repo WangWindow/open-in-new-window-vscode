@@ -25,6 +25,9 @@
 	],
 	"icon": "assets/logo.png",
 	"main": "./out/extension.js",
+	"activationEvents": [
+		"onCommand:open-in-new-window.open"
+	],
 	"contributes": {
 		"commands": [
 			{
