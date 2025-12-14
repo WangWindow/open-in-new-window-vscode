@@ -1,6 +1,6 @@
 {
-	"name": "wangwindow-open-in-new-window",
-	"displayName": "%command.open.title%",
+	"name": "quick-open-in-new-window",
+	"displayName": "%command.open.titleen%",
 	"description": "%command.open.title%",
 	"version": "1.1.1",
 	"publisher": "WangWindow",
@@ -25,20 +25,17 @@
 	],
 	"icon": "assets/logo.png",
 	"main": "./out/extension.js",
-	"activationEvents": [
-		"onCommand:open-in-new-window.open"
-	],
 	"contributes": {
 		"commands": [
 			{
-				"command": "open-in-new-window.open",
+				"command": "quick-open-in-new-window.open",
 				"title": "%command.open.title%"
 			}
 		],
 		"menus": {
 			"explorer/context": [
 				{
-					"command": "open-in-new-window.open",
+					"command": "quick-open-in-new-window.open",
 					"group": "openInNewWindowGroup"
 				}
 			]
@@ -46,7 +43,7 @@
 		"configuration": {
 			"title": "%configuration.title%",
 			"properties": {
-				"open-in-new-window.showNotification": {
+				"quick-open-in-new-window.showNotification": {
 					"type": "boolean",
 					"description": "%configuration.showNotification%",
 					"default": false
@@ -61,8 +58,11 @@
 		"prepublishOnly": "npm run compile"
 	},
 	"devDependencies": {
+		"@types/vscode": "^1.75.0",
 		"@vscode/vsce": "^3.7.1",
-		"@vscode/l10n": "^0.0.18",
 		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"@vscode/l10n": "^0.0.18"
 	}
 }

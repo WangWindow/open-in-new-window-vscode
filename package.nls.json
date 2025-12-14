@@ -1,5 +1,6 @@
 {
     "command.open.title": "Quick Open in New Window",
+    "command.open.titleen": "Open in New Window",
     "command.open.notification": "Opening {0} in new window!",
     "command.open.warning": "The intended usage is from the explorer context menu.",
     "configuration.title": "configuration",
