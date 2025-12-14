@@ -1,0 +1,7 @@
+{
+    "command.open.title": "新しいウィンドウで開く",
+    "command.open.notification": "{0} を新しいウィンドウで開いています！",
+    "command.open.warning": "エクスプローラーのコンテキストメニューからの使用を推奨します。",
+    "configuration.title": "設定",
+    "configuration.showNotification": "通知を表示"
+}
