@@ -2,7 +2,7 @@
 	"name": "quick-open-in-new-window",
 	"displayName": "%command.open.titleen%",
 	"description": "%command.open.title%",
-	"version": "1.1.1",
+	"version": "1.1.2",
 	"publisher": "WangWindow",
 	"bugs": {
 		"url": "https://github.com/WangWindow/open-in-new-window-vscode/issues"
