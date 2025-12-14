@@ -1,6 +1,6 @@
 {
     "command.open.title": "在新窗口中打开",
-    "command.open.titleen": "Open in New Window",
+    "command.open.titleen": "Quick Open in New Window",
     "command.open.notification": "正在新窗口中打开 {0}！",
     "command.open.warning": "建议从资源管理器右键菜单使用。",
     "configuration.title": "配置",
